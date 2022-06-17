@@ -7,5 +7,13 @@ public class Main {
     } else {
       System.out.println("DVDを見ます");
     }
+
+    boolean doorClose = true;
+    if (doorClose == false) {
+      System.out.println("ノックする");
+      System.out.println("1分待つ");
+    } else {
+      System.out.println("トイレに入る");
+    }
   }
 }
